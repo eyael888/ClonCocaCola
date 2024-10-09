@@ -1,0 +1,368 @@
+* {margin: 0; font-family: Arial, Helvetica, sans-serif;
+}
+.domicilio {display: flex; align-items: center;background-color: black;
+color: white; justify-content: center;
+font-size: 16px; text-decoration: none; 
+box-sizing: border-box; height: 45px;
+text-spacing-trim: inherit;
+}
+.bordedom{height: 5px;
+    background-image: url(arcoiris.jpg); background-size: cover;
+}
+.envios, .dom {margin-left: 10px;}
+.dom{text-decoration: underline;}
+
+header{
+    display: flex;align-items: center; 
+    justify-content: space-around;
+    box-sizing: border-box;width: 90%;
+    margin: auto;
+    font-size: 15px; font-weight: bold;height: 80px;
+    }
+header a{text-decoration: none; color: black;}
+header a.sc{display: flex; align-items: center;}
+a.sc img{margin-bottom: 15px; 
+    display: flex;align-items: center;}
+a.sc{box-sizing: border-box;margin-left: 0px;height: 80px; 
+    display: flex;align-items: center;
+border-bottom: 5px solid transparent;}
+a.sc:hover{border-bottom: red 5px solid}
+a.entuhogar{margin-left: 0px;}
+img.micarrito{margin-right: 55px;}
+a.productos{box-sizing: border-box; margin-left:0px; 
+    height: 80px; display: flex;align-items: center;
+border-bottom: transparent 5px solid;}
+a.productos:hover{border-bottom: red 5px solid;
+}
+a.retornables{box-sizing: border-box;margin-left: 0px; display: flex;
+     height: 80px; display: flex;align-items: center;
+    border-bottom: 5px solid transparent;}
+     a.retornables:hover{border-bottom: red 5px solid;
+     }
+a.retornables p{margin-left: 12px; background-color: #e02020;
+color:#ffffff; font-size: 13px; padding: 2px; }
+a.promociones{box-sizing: border-box;margin-left: 0px;display: flex;
+    height: 80px; display: flex;align-items: center;
+border-bottom: 5px solid transparent;}
+a.promociones:hover{border-bottom: red 5px solid;
+    }  
+button.inicio{display: flex;width: 84px;
+border: none;background: none; margin-left: 0px;
+font-size: 0.7rem;
+font-weight: bold;}
+
+   .iconoinicio{
+    display: inline-block;
+    width: 22px;  height: 22px;    }
+
+button.inicio:hover{color: #e02020;
+  }
+.lupa:hover, .carrito:hover{color: #e02020;}
+
+
+.contenedor1{
+    border-top: rgb(212, 209, 209) solid 2px;
+    display: flex;
+color: white;box-sizing: border-box;height: 25rem;
+justify-content: center;
+}
+.imagender{display: flex; flex-direction: column;height: 25rem;
+background-image:url(fondobanner1.png);width: 100%;
+background-size: cover;
+}
+h1.encabezado{font-weight: lighter; width: 30rem;
+font-size: 2.5rem;margin-top: 8rem;margin-bottom: 0.9rem;
+transform: scaleY(90%);
+}
+p.promo1{width: 30rem; font-size: 1.2rem;
+    transform: scaley(80%);text-align: center;
+}
+button.comprar{width: 123px; height: 44px;
+border-radius: 15px; 
+}
+button a.textocompra{text-decoration: none;
+font-weight: bold;color: black; font-size: 1rem;
+}
+
+button.tyc{
+    border-radius: 50px; width: 10rem;
+background-color: transparent; 
+margin-top: 10px;
+border-color: rgb(27, 167, 227);
+}
+a.terminos{color: #ffffff; 
+    }
+
+    div.fondoinfbanner1{box-sizing: border-box;
+    height: 170px;background-image: url(fondoinfbanner1.png);
+}
+
+.body2{background-image: url(fondobody.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bac;
+}
+.progreso{box-sizing: border-box; height: 48px ;
+background: transparent;}
+.logos{box-sizing: border-box; height: 157px;
+display: flex; justify-content: space-around;
+width: 4000px; align-items: center;
+}
+div.logos button{box-sizing: border-box;
+    width: 90px; height: 90px; background: transparent;
+border-radius: 20px;border: none;}
+
+div.logos button.delvalle{
+    background-image: url(delvalle.png);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 375%;
+}
+div.logos button.ades{
+    background-image: url(ades.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 115%;
+}
+div.logos button.fuzetea{
+    background-image: url(fuzetea.png);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 125%;
+}
+div.logos button.delvallefrut{
+    background-image: url(delvallefrut.png);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 105%;
+}
+div.logos button.fresca{
+    background-image: url(fresca.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 105%;
+}
+div.logos button.powerade{
+    background-image: url(powerade.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 105%;
+}
+div.logos button.santaclara{
+    background-image: url(santaclara.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 105%;
+}
+div.logos button.pyg{
+    background-image: url(p&g.png);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 172%;
+}
+div.logos button.ciel{
+    background-image: url(ciel.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 135%;
+}
+div.logos button.cocacola{
+    background-image: url(cocacola.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 100%;
+}
+div.logos button.cocasinaz{
+    background-image: url(cocasinaz.svg);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 100%;
+}
+div.logos button.cocalight{
+    background-image: url(cocalight.gif);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 100%;
+}
+div.logos button.cielexprim{
+    background-image: url(cielexprim.png);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 100%;
+}
+div.logos button.sprite{
+    background-image: url(sprite.png);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 100%;
+}
+div.logos button.fanta{
+    background-image: url(fanta.png);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 100%;
+}
+div.logos button.mundet{
+    background-image: url(mundet.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 100%;
+}
+div.logos button.monster{
+    background-image: url(monster.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: auto; background-size: 100%;
+}
+
+h1.ciel{box-sizing: border-box;
+width: 100%; text-align: center;
+font-weight: lighter; margin-bottom: 10px;
+}
+.tarjetasciel{display: flex;
+  justify-content: center;
+  margin: 0%;
+}
+
+.ciel1{display: flex;
+flex-direction: column; box-sizing: border-box;
+width: 205px; height: 455px;
+align-items: center;
+border: rgb(241, 238, 238) solid 2px;
+border-radius: 20px; margin: 5px;
+cursor: pointer;background-color: white;
+}
+.garrafon{margin-bottom: 15px; margin-top: 15px;
+}
+.liquido {display: flex; align-self: flex-start;
+background-color: aquamarine; font-size: 11px;
+font-weight: bold;padding: 1.5px; 
+border-radius: 3px;margin-left: 20px;
+}
+.descripcion{text-decoration: none; transform: scaleY(90%);
+width: 145px; display: flex;align-self: flex-start;
+color: black;margin-top: 2px;margin-bottom: 10px;
+margin-left: 20px;
+}
+.unidades{font-size: 12px; font-weight: bold;
+border-radius: 5px; background-image:url(arcoiris.jpg);
+background-size: cover;width: 160px; height: 32px;
+border: 0;margin-bottom: 20px; display: flex;
+padding: 1.7px;
+
+}
+.unidades p.pieza{background-color: rgb(250, 248, 248);
+  width: 182px; height: 28px;margin: auto;
+  border-radius: 5px; text-align: center;
+display: flex; align-items: center;
+justify-content: center; margin: 0;
+}
+.precio{display: flex; align-self: flex-start;
+margin-left: 20px;font-weight: bold;
+transform: scaleY(90%); margin-bottom: 20px;
+margin-top: 10px;
+}
+.agregar{
+  border-radius: 5px;
+  display: flex; align-items: center;
+  font-weight: bold; width: 162px;
+  height: 32px;
+  justify-content: center;
+  background-color: white;
+  border-color: rgb(179, 188, 188);
+  border: 2px solid rgba(130, 129, 129, 0.5)
+}
+.unidades2{font-size: 12px; font-weight: bold;
+  border-radius: 5px; background-image:url(arcoiris.jpg);
+  background-size: cover;width: 80px; height: 32px;
+  border: 0;margin-bottom: 10px; display: flex;
+  padding: 1.7px;align-self: flex-start; margin-left: 20px;
+  }
+  .unidades2 p.pieza{background-color: rgb(250, 248, 248);
+    width: 182px; height: 28px;margin: auto;
+    border-radius: 5px; text-align: center;
+  display: flex; align-items: center;
+  justify-content: center; margin: 0;
+  }
+  .precio1{display: flex; align-self: flex-start;
+    margin-left: 20px;font-weight: bold;
+    transform: scaleY(90%); margin-bottom: 20px;
+    margin-top: 40px;
+    }
+
+    .unidades3{font-size: 12px; font-weight: bold;
+      border-radius: 5px; width: 80px; height: 32px;
+      border: 2px solid rgba(126, 124, 124, 0.5);
+      margin-bottom: 10px; display: flex;
+      padding: 1.7px;align-self: flex-start; margin-left: 20px;
+      box-sizing: border-box;
+      }
+      .unidades3 p.pieza{background-color: rgb(250, 248, 248);
+        width: 182px; height: 27px;margin: auto;
+        border-radius: 5px; text-align: center;
+      display: flex; align-items: center;
+      justify-content: center; margin: 0;
+      font-weight: lighter;box-sizing: border-box;
+      }
+      .unidades3:hover{border-color:red; border-width: 2px; }
+      .unidades3 p.pieza:hover{color: red;}
+
+.masprod{display: flex;width:100%;justify-content: center;
+margin-top: 40px; margin-bottom: 40px;
+}
+button.vermas{border-radius: 12px;
+width: 240px;height: 35px; background-color: black;}
+a.ver{text-decoration: none;color: white;
+transform: scaleY(90%); font-weight: bold;font-size: 12px;
+}
+
+.tarjeta2{;
+justify-content: center;
+background-color: rgb(252, 252, 247);
+padding: 20px; width: 50rem; margin: auto;
+border-radius: 10px; 
+}
+.descubre{font-size: 1.7rem;margin-bottom: 20px;
+  transform: scaleY(90%);
+}
+.contenido{display: grid;
+  grid-template-columns: 170px 170px 180px 170px;
+  gap: 30px; ;
+  width: 1052px; height: 238px;
+}
+.tarjeta2 h1{font-size: 1.3rem;transform: scaleY(90%);}
+.tarjeta2 h3{font-size: 0.8rem;transform: scaleY(90%);
+font-weight: lighter; width: 170px;
+}
+.imgcont{grid-row: 1/3;}
+.promociones{grid-column-start:2 ; grid-row-start: 2;}
+.familia{grid-column-start:3 ; grid-row-start: 2;}
+.nota{grid-column-start:4 ; grid-row-start: 2;
+  grid-row: 1/3; margin-top: 120px;
+}
+button.compraahora{border-radius: 12px;
+  width: 170px;height: 40px; background-color: black;
+margin-top: 10px;border-color: rgb(16, 162, 235);
+}
+  a.ahora{text-decoration: none;color: white;
+  transform: scaleY(90%); font-weight: bold;font-size: 12px;
+  }
+
+  h1.favoritos{box-sizing: border-box;
+    width: 100%; text-align: center;
+    font-weight: lighter; margin-bottom: 10px;
+    margin-top: 20px;
+    }
+.precios{display: flex; margin-left: 40px; width: 100%;}
+    .precio2{display: flex; align-self: flex-start;
+      margin-left: 0px;font-weight: bold;
+      transform: scaleY(90%); margin-bottom: 20px;
+      margin-top: 40px; color:red; transform: scaleY(90%);
+      }
+      .precio3{display: flex; align-self: flex-start;
+        margin-left: 10px;font-weight: lighter;
+        transform: scaleY(90%); margin-bottom: 20px;
+        margin-top: 40px; font-size: 0.8rem;justify-content: flex-start;
+        margin-top: 42px; text-decoration:line-through;
+        }
