@@ -5,4 +5,4 @@ Segundo repositorio con CSS
     ```
     git clone https://github.com/eyael888/ClonCocaCola.git
 # Autor
-Creado por [Viridiana Padilla](https://github.com/eyael888](https://eyael888.github.io/ClonCocaCola/) - ¡Si te gusta el proyecto, no dudes en contactarme!
+Creado por [Viridiana Padilla](https://eyael888.github.io/ClonCocaCola/) - ¡Si te gusta el proyecto, no dudes en contactarme!
