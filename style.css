@@ -435,22 +435,17 @@ img.bannerfixed{position: fixed; z-index: 200; width: 100%;
 
 
 
-
-
-
-
-
-
 @media (max-width:600px){
   
  
   .domicilio {flex-direction: column;
-    font-size: 14px; height:auto; width: 25%;
+    font-size: 14px; height:auto; width: 100%;
      }
   .bordedom{height: 5px;
       background-image: url(arcoiris.jpg); background-size: cover;
-      position: fixed; z-index: 5000; top: 67px; width: 25%;
+      position: fixed; z-index: 5000; top: 67px; width: 100%;
   }
+  .logos{width: 500%;}
     header{
       display: grid; grid-template-columns: 100px 100px;
       grid-template-rows: 50px 50px 50px 50px;
