@@ -5,14 +5,16 @@ color: white; justify-content: center; background-color: black;
 font-size: 16px; text-decoration: none; 
 box-sizing: border-box; height: 45px;
 text-spacing-trim: inherit; position:fixed; 
-top: 0;width: 100%; z-index: 500;
+top: 0;width: 100%; z-index: 1000;
 }
 .bordedom{height: 5px;
     background-image: url(arcoiris.jpg); background-size: cover;
-    position: fixed; z-index: 500; top: 45px; width: 100%;
+    position: fixed; z-index: 1000; top: 45px; width: 100%;
 }
 .envios, .dom {margin-left: 10px;}
-.dom{text-decoration: underline;}
+.dom{text-decoration: underline;
+margin-top: 5px; 
+}
 
 header{
     display: flex;align-items: center; 
@@ -22,34 +24,35 @@ header{
     font-size: 15px; font-weight: bold;height: 70px;
     background-color: white;
     position: fixed; position: fixed; top: 50px;
-    z-index: 500;
+    z-index: 1000;
     }
 header a{text-decoration: none; color: black;}
-header a.sc{display: flex; align-items: center;}
-a.sc img{margin-bottom: 15px; 
+header a.a3{display: flex; align-items: center;}
+a.a3 img{margin-bottom: 15px; 
     display: flex;align-items: center;}
-a.sc{box-sizing: border-box;margin-left: 0px;height: 80px; 
+a.a3{box-sizing: border-box;margin-left: 0px;height: 80px; 
     display: flex;align-items: center;
 border-bottom: 5px solid transparent;}
-a.sc:hover{border-bottom: red 5px solid}
+a.a3:hover{border-bottom: red 5px solid}
 a.entuhogar{margin-left: 0px;}
 img.micarrito{margin-right: 55px;}
-a.productos{box-sizing: border-box; margin-left:0px; 
+a.a2{box-sizing: border-box; margin-left:0px; 
     height: 80px; display: flex;align-items: center;
 border-bottom: transparent 5px solid;}
-a.productos:hover{border-bottom: red 5px solid;
+a.a2:hover{border-bottom: red 5px solid;
 }
-a.retornables{box-sizing: border-box;margin-left: 0px; display: flex;
+a.a4{box-sizing: border-box;margin-left: 0px; display: flex;
      height: 80px; display: flex;align-items: center;
     border-bottom: 5px solid transparent;}
-     a.retornables:hover{border-bottom: red 5px solid;
+
+     a.a4:hover{border-bottom: red 5px solid;
      }
-a.retornables p{margin-left: 12px; background-color: #e02020;
+a.a4 p{margin-left: 12px; background-color: #e02020;
 color:#ffffff; font-size: 13px; padding: 2px; }
-a.promociones{box-sizing: border-box;margin-left: 0px;display: flex;
+a.a5{box-sizing: border-box;margin-left: 0px;display: flex;
     height: 80px; display: flex;align-items: center;
 border-bottom: 5px solid transparent;}
-a.promociones:hover{border-bottom: red 5px solid;
+a.a5:hover{border-bottom: red 5px solid;
     }  
 button.inicio{display: flex;width: 84px;
 border: none;background: none; margin-left: 0px;
@@ -387,7 +390,8 @@ margin: auto; justify-content: center;
 }
 
 .bloque1, .bloque2, .bloque3{display: flex; 
-  flex-direction: column;
+  flex-direction: column;position: relative;
+  z-index: 1000;
 }
 h3.titulo{color: white;  transform: scaleY(90%);
   margin-top: 40px; margin-bottom: 20px;
@@ -419,6 +423,7 @@ height: 50px; align-items: center;
 }
 footer.derechos h5, a{color: white; font-size: 13px;
 transform: scaleY(90%); text-decoration-line: underline;
+z-index: 50000;
 }
 .bordedom2{height: 5px;
   background-image: url(arcoiris.jpg); background-size: cover;
@@ -426,4 +431,130 @@ transform: scaleY(90%); text-decoration-line: underline;
 }
 img.bannerfixed{position: fixed; z-index: 200; width: 100%;
   bottom: 0;height: 150px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+  
+ 
+  .domicilio {flex-direction: column;
+    font-size: 14px; height:auto; width: 25%;
+     }
+  .bordedom{height: 5px;
+      background-image: url(arcoiris.jpg); background-size: cover;
+      position: fixed; z-index: 5000; top: 67px; width: 25%;
+  }
+    header{
+      display: grid; grid-template-columns: 100px 100px;
+      grid-template-rows: 50px 50px 50px 50px;
+      gap: 0;
+      width: 100%;height: auto;
+      position: relative; top:75px
+      }
+  button.inicio{grid-column-start: 1;
+    grid-row-end:3 ;
+  }
+  .lupa{grid-column-start: 1;
+    grid-row-end:4 ;}
+  .carrito{grid-column-start: 1;
+    grid-row-end:5 ;}
+  
+  .contenedor1{
+    flex-direction: column;
+    position: relative;top: 115px;
+      }
+  .contenedor1 img{width: 100%;
+    height: 300px;
+  }
+  .imagender{width: 100%;
+    height: 400px;
+    align-items: center;
+  z-index: 5000;
+  }
+  h1.encabezado{margin-top: 10px;
+  text-align: center;height: 100px;
+  font-size: 2.5rem; width: 100%;
+}
+p.promo1{font-size: 1.5rem; width: 100%}
+.fondoinfbanner1{
+  display: none;
+    }
+  
+ .logos{position: relative;
+  z-index: 50000;top: 150px;
+}
+h1.ciel{box-sizing: border-box;
+  width:100%; text-align: center;
+  font-weight: lighter; margin-bottom: 10px;
+margin-top: 150px;  
+}
+  .tarjetasciel{display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 450px 450px;
+    gap: 5px; width: 100%;
+    justify-content: space-around;justify-items: center;
+    }
+  
+  .body2{width: 100%;}
+  .masprod{display: flex;width:100%;
+    justify-content: center;
+  }
+  
+  .tarjeta2{width: 100%;
+    justify-content: center;
+  }
+.descubre{text-align: center;margin: auto;
+  width: 400px; margin-right: auto;
+font-size: 2rem;justify-content: center;
+}
+  .contenido{display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap:40px; justify-content: center;
+    width: auto; height: auto;
+    align-items: center;
+  }
+  .imgcont{grid-row: 1/3; align-items: center;}
+  .opciones {grid-column-start: 1; grid-row-start: 3;
+   align-content: center;
+  }
+  .familia {grid-column-start: 1; grid-row-start: 4;
+  align-content: center;}
+  .nota{grid-column-start: 2; grid-row-start: 3;
+  grid-row:2/5 ; align-content: center;}
+    h1.favoritos{width: 100%;
+      }
+ 
+  footer.news{width: 100%; margin-top: 20px;
+  height:auto ;}
+  .comunidad{width: 300px; font-size: 1.3rem;
+     ; align-content: center; margin-left: 5px;
+  }
+  button.preferencias{width: 150px; 
+    height: auto;
+    margin: auto;
+  }
+    
+  footer.acercade{width: 100%;
+    flex: grid; grid-template-columns: 150px 150px;
+    grid-template-rows: 200px 200px; height: 450px;
+    flex-wrap: wrap;
+  }
+   .bloque3{grid-column:1/3; margin: auto
+  }
+  .derechos{width: 100%; justify-content: space-around;
+  height: 200px;padding-bottom: 60px;
+}
+.derechos h5{margin-left: 40px;}
+    .bordedom2{width: 100%;}
+  .bannerfixed{max-height: 100px; max-width: 600px;}
+
+  
 }
