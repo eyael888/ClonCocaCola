@@ -379,6 +379,9 @@ transform: scaleY(90%); width: 756px;
 button.preferencias{width: 318px; height: 48px;
 border-radius: 18px; background-color: black;
 }
+button.preferencias:hover{background-color: rgb(50, 49, 49);
+border-color:rgb(50, 49, 49);
+}
 a.editpref{text-decoration: none;color: white;
 font-size: 1rem; font-weight: bold;
 transform: scaleY(90%);}
@@ -440,19 +443,21 @@ img.bannerfixed{position: fixed; z-index: 200; width: 100%;
  
   .domicilio {flex-direction: column;
     font-size: 14px; height:auto; width: 100%;
+    position: fixed; z-index: 70000;
      }
   .bordedom{height: 5px;
       background-image: url(arcoiris.jpg); background-size: cover;
-      position: fixed; z-index: 5000; top: 67px; width: 100%;
+      position: fixed; z-index: 70000; top: 67px; width: 100%;
   }
-  .logos{width: 500%;}
+  
     header{
       display: grid; grid-template-columns: 100px 100px;
       grid-template-rows: 50px 50px 50px 50px;
       gap: 0;
       width: 100%;height: auto;
-      position: relative; top:75px
+      position: fixed; top:70px; z-index: 70000;
       }
+      
   button.inicio{grid-column-start: 1;
     grid-row-end:3 ;
   }
@@ -463,7 +468,7 @@ img.bannerfixed{position: fixed; z-index: 200; width: 100%;
   
   .contenedor1{
     flex-direction: column;
-    position: relative;top: 115px;
+    position: relative;top: 300px;
       }
   .contenedor1 img{width: 100%;
     height: 300px;position: relative;top:65px
@@ -484,12 +489,13 @@ p.promo1{font-size: 1.5rem; width: 100%}
     }
   
  .logos{position: relative;
-  z-index: 50000;top: 220px;
-}
+  z-index: 50000;top: 400px; width: 500%;}
+
+
 h1.ciel{box-sizing: border-box;
   width:100%; text-align: center;
   font-weight: lighter; margin-bottom: 10px;
-margin-top: 220px;  
+margin-top: 390px;  
 }
   .tarjetasciel{display: grid;
     grid-template-columns: 50px 50px;
