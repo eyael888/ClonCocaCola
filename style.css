@@ -471,12 +471,13 @@ img.bannerfixed{position: fixed; z-index: 200; width: 100%;
     position: relative;top: 115px;
       }
   .contenedor1 img{width: 100%;
-    height: 300px;
+    height: 300px;position: relative;top:65px
   }
   .imagender{width: 100%;
     height: 400px;
     align-items: center;
   z-index: 5000;
+  position: relative;top: 60px;
   }
   h1.encabezado{margin-top: 10px;
   text-align: center;height: 100px;
@@ -488,12 +489,12 @@ p.promo1{font-size: 1.5rem; width: 100%}
     }
   
  .logos{position: relative;
-  z-index: 50000;top: 150px;
+  z-index: 50000;top: 220px;
 }
 h1.ciel{box-sizing: border-box;
   width:100%; text-align: center;
   font-weight: lighter; margin-bottom: 10px;
-margin-top: 150px;  
+margin-top: 220px;  
 }
   .tarjetasciel{display: grid;
     grid-template-columns: 50px 50px;
